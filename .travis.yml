@@ -13,6 +13,7 @@ install:
 script:
   - |
     echo ">>> Compile vscode-test"
+    npm install
     npm run compile
     echo ">>> Compiled vscode-test"
     echo ">>> Run sample integration test"
